@@ -1,1 +1,3 @@
-
+image:
+  repository: 123456789012.dkr.ecr.ap-southeast-1.amazonaws.com/my-ecr-repo-name
+  tag: develop-20260120-abcd
