@@ -1,3 +1,4 @@
 image:
   repository: 112865149831.dkr.ecr.us-east-1.amazonaws.com/my-proj
   tags: develop-20260120-abcd
+  tag: develop-20260121-4c982c3
