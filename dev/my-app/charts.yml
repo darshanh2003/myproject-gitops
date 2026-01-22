@@ -1,5 +1,5 @@
 apiVersion: v2
-name: digisecure-backend
+name: VCCSM_HELM_CHART
 description: Helm chart for DigiSecure backend application
 type: application
 version: 0.1.0
