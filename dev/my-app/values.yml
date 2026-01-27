@@ -1,4 +1,26 @@
+#image:
+#  repository: 112865149831.dkr.ecr.us-east-1.amazonaws.com/my-proj
+#  tags: develop-20260120-abcd
+#  tag: develop-20260122-72b1a73
+replicaCount: 2
+
 image:
   repository: 112865149831.dkr.ecr.us-east-1.amazonaws.com/my-proj
-  tags: develop-20260120-abcd
-  tag: develop-20260122-72b1a73
+  tag: develop
+
+containerPort: 5000
+environment: dev
+
+resources:
+  requests:
+    memory: "256Mi"
+    cpu: "200m"
+  limits:
+    memory: "512Mi"
+    cpu: "500m"
+
+probes:
+  readiness:
+    path: /health
+  liveness:
+    path: /health
