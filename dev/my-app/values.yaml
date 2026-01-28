@@ -1,4 +1,4 @@
-replicaCount: 1
+replicaCount: 3
 image:
   repository: 112865149831.dkr.ecr.us-east-1.amazonaws.com/my-proj
   tag: develop-20260128-c0553ae
