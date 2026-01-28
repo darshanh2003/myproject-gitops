@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: VCCSM-dev
+  name: vccsm-dev
   namespace: argocd
 spec:
   project: default
