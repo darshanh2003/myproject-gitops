@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: 112865149831.dkr.ecr.us-east-1.amazonaws.com/my-proj
-  tag: develop-20260128-56a0352
+  tag: develop-20260128-cd29b95
 containerPort: 80
 environment: dev
 resources:
