@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/darshanh2003/myproject-gitops
     targetRevision: main
-    path: dev/my-app
+    path: dev/my-app/templates
 
   destination:
     server: https://kubernetes.default.svc
