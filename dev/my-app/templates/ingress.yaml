@@ -3,11 +3,11 @@ kind: Ingress
 metadata:
   name: {{ .Release.Name }}-ingress
   annotations:
-    kubernetes.io/ingress.class: alb
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/group.name: shared-alb
 spec:
+  ingressClassName: alb
   rules:
     - http:
         paths:
@@ -18,5 +18,3 @@ spec:
                 name: {{ .Release.Name }}
                 port:
                   number: 80
-
-
